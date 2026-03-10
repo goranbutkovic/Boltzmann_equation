@@ -12,6 +12,6 @@ $$
 
 This is a **deterministic, discrete-particle approximation** of the Boltzmann collision term. Over time, the particle velocity distribution evolves similarly to the predictions of the Boltzmann equation.
 
-## 2. MD - phase transition
+## 2. Variable phase transition
 
-Numerical Molecular Dynamics of Sticky Hard-Sphere Particles Exhibiting Gas–Liquid Phase Transition
+By varying the temperature, a fluid consisting of hard spheres exhibits a phase change.
