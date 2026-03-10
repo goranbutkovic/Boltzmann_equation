@@ -18,7 +18,9 @@ By varying the temperature, a fluid consisting of hard spheres exhibits a phase 
 
 The standard potential for pairs or particles is the Lennard-Jones potential (12-6 potential):
 
-$$V(r)=4 \varepsilon\left[\left(\frac{\sigma}{r}\right)^{12}-\left(\frac{\sigma}{r}\right)^{6}\right].$$
+$$V(r)=4 \varepsilon\left[\left(\frac{\sigma}{r}\right)^{12}-\left(\frac{\sigma}{r}\right)^{6}\right]$$
+
+where $ε$ is the depth of the potential well, and $σ$ is the distance at which the particle-particle potential energy $V$ is zero.
 
 In this project we used a simpler potential of the form:
 
