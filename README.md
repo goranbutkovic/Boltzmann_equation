@@ -15,3 +15,23 @@ This is a **deterministic, discrete-particle approximation** of the Boltzmann co
 ## 2. Variable phase transition
 
 By varying the temperature, a fluid consisting of hard spheres exhibits a phase change.
+
+The standard potential for pairs or particles is the Lennard-Jones potential (12-6 potential):
+
+$$V_{\mathrm{LJ}}(r)
+=
+4 \, \varepsilon
+\left[
+\left(\frac{\sigma}{r}\right)^{12}
+-
+\left(\frac{\sigma}{r}\right)^{6}
+\right].$$
+
+In this project we used a simpler potential of the form:
+
+$$V(r)=
+\begin{cases}
+\infty, & r < 2 r_0 \\
+-\varepsilon \left( 7 r - \frac{r^2}{4 r_0} \right) + C, & 2 r_0 \le r < 4 r_0 \\
+0, & r \ge 4 r_0
+\end{cases}.$$
